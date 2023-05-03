@@ -7,7 +7,7 @@ public class Tecnico {
 	private String cognome;
 	private String codfiscale;
 	private String telefono;
-	private Laboratorio laboratorio;
+	private Laboratorio codl_fk;
 	
 	public Tecnico (String matricola,String nome,String cognome,String codfis,String tel,Laboratorio lab) {
 		this.matricola = matricola;
