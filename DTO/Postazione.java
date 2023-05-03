@@ -11,7 +11,8 @@ public class Postazione {
         this.num_posti = num_posti;
         this.CodL_fk = codl_fk;
     }
-
+    
+    //GETTERS E SETTERS
     public Integer getCodPostazione() {
         return this.CodPostazione;
     }
