@@ -6,13 +6,12 @@ public class Postazione {
     private Integer num_posti;
     private Laboratorio CodL_fk;
 
-    public Postazione(Integer codPostazione, Integer num_posti, Integer codl_fk) {
+    public Postazione(Integer codPostazione, Integer num_posti, Laboratorio codl_fk) {
         this.CodPostazione = codPostazione;
         this.num_posti = num_posti;
         this.CodL_fk = codl_fk;
     }
-    
-    //GETTERS E SETTERS
+
     public Integer getCodPostazione() {
         return this.CodPostazione;
     }
