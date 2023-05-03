@@ -15,7 +15,7 @@ public class Tecnico {
 		this.cognome = cognome;
 		this.codfiscale = codfis;
 		this.telefono = tel;
-		this.laboratorio = lab;
+		this.codl_fk = lab;
 	}
 
 	public String getMatricola() {
@@ -63,7 +63,7 @@ public class Tecnico {
 	}
 
 	public void setLaboratorio(Laboratorio laboratorio) {
-		this.laboratorio = laboratorio;
+		this.codl_fk = laboratorio;
 	}
 	
 	
