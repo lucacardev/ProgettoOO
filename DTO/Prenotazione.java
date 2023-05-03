@@ -8,9 +8,9 @@ public class Prenotazione {
     private LocalTime ora_prenotazioneS;
     private Duration tempo_utilizzoS;
     private Utente Username_fk;
-    Strumento CodStrumento_fk;
+    private Strumento CodStrumento_fk;
 
-    public Prenotazione(Integer CodPrenotazione, LocalDate data_prenotazioneS, LocalTime ora_prenotazioneS, Duration tempo_utilizzoS, String Username_fk, Integer CodStrumento_fk) {
+    public Prenotazione(Integer CodPrenotazione, LocalDate data_prenotazioneS, LocalTime ora_prenotazioneS, Duration tempo_utilizzoS, Utente Username_fk, Strumento CodStrumento_fk) {
         this.CodPrenotazione = CodPrenotazione;
         this.data_prenotazioneS = data_prenotazioneS;
         this.ora_prenotazioneS = ora_prenotazioneS;
@@ -51,19 +51,19 @@ public class Prenotazione {
         this.tempo_utilizzoS = tempo_utilizzoS;
     }
 
-    public String getUsername_fk() {
+    public Utente getUsername_fk() {
         return this.Username_fk;
     }
 
-    public void setUsername_fk(String username_fk) {
+    public void setUsername_fk(Utente username_fk) {
         this.Username_fk = username_fk;
     }
 
-    public Integer getCodStrumento_fk() {
+    public Strumento getCodStrumento_fk() {
         return this.CodStrumento_fk;
     }
 
-    public void setCodStrumento_fk(Integer codStrumento_fk) {
+    public void setCodStrumento_fk(Strumento codStrumento_fk) {
         this.CodStrumento_fk = codStrumento_fk;
     }
 }
