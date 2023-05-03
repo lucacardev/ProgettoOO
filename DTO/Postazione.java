@@ -4,7 +4,7 @@ public class Postazione {
 
     private Integer CodPostazione;
     private Integer num_posti;
-    private Integer CodL_fk;
+    private Laboratorio CodL_fk;
 
     public Postazione(Integer codPostazione, Integer num_posti, Integer codl_fk) {
         this.CodPostazione = codPostazione;
@@ -29,11 +29,11 @@ public class Postazione {
         this.num_posti = num_posti;
     }
 
-    public Integer getCodL_fk() {
+    public Laboratorio getCodL_fk() {
         return this.CodL_fk;
     }
 
-    public void setCodL_fk(Integer codL_fk) {
+    public void setCodL_fk(Laboratorio codL_fk) {
         this.CodL_fk = codL_fk;
     }
 }
