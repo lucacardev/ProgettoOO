@@ -8,7 +8,7 @@ public class Prenotazione {
     private LocalTime ora_prenotazioneS;
     private Duration tempo_utilizzoS;
     private Utente Username_fk;
-    Strumento CodStrumento_fk;
+    private Strumento CodStrumento_fk;
 
     public Prenotazione(Integer CodPrenotazione, LocalDate data_prenotazioneS, LocalTime ora_prenotazioneS, Duration tempo_utilizzoS, Utente Username_fk, Strumento CodStrumento_fk) {
         this.CodPrenotazione = CodPrenotazione;
