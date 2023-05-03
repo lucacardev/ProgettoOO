@@ -7,7 +7,7 @@ public class Tecnico {
 	private String cognome;
 	private String codfiscale;
 	private String telefono;
-	private Laboratorio laboratorio;
+	private Laboratorio codl_fk;
 	
 	public Tecnico (String matricola,String nome,String cognome,String codfis,String tel,Laboratorio lab) {
 		this.matricola = matricola;
@@ -15,7 +15,7 @@ public class Tecnico {
 		this.cognome = cognome;
 		this.codfiscale = codfis;
 		this.telefono = tel;
-		this.laboratorio = lab;
+		this.codl_fk = lab;
 	}
 
 	public String getMatricola() {
@@ -63,7 +63,7 @@ public class Tecnico {
 	}
 
 	public void setLaboratorio(Laboratorio laboratorio) {
-		this.laboratorio = laboratorio;
+		this.codl_fk = laboratorio;
 	}
 	
 	
