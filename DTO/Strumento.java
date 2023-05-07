@@ -22,31 +22,38 @@ public class Strumento {
 
 //GETTERS E SETTERS
 	public Integer getCodStrumento() {
-		return CodStrumento;
+
+		return this.CodStrumento;
 	}
 
 	public void setCodStrumento(Integer codStrumento) {
+
 		this.CodStrumento = codStrumento;
 	}
 
 	public String getCaratteristiche_tecniche() {
-		return caratteristiche_tecniche;
+
+		return this.caratteristiche_tecniche;
 	}
 
 	public void setCaratteristiche_tecniche(String caratteristiche_tecniche) {
+
 		this.caratteristiche_tecniche = caratteristiche_tecniche;
 	}
 
 	public String getDescrizione() {
-		return descrizione;
+
+		return this.descrizione;
 	}
 
 	public void setDescrizione(String descrizione) {
+
 		this.descrizione = descrizione;
 	}
 
 	public Duration getTempoMaxUso() {
-		return tempoMaxUso;
+
+		return this.tempoMaxUso;
 	}
 
 	public void setTempoMaxUso(Duration tempoMaxUso) {

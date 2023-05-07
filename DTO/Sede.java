@@ -17,34 +17,42 @@ public class Sede {
 //GETTERS E SETTERS
 
     public Integer getCodS() {
-        return CodS;
+
+        return this.CodS;
     }
 
     public void setCodS(Integer codS) {
+
         this.CodS = codS;
     }
 
     public String getNome() {
-        return nome;
+
+        return this.nome;
     }
 
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
     public String getIndirizzo() {
-        return indirizzo;
+
+        return this.indirizzo;
     }
 
     public void setIndirizzo(String indirizzo) {
+
         this.indirizzo = indirizzo;
     }
 
     public String getResponsabile() {
-        return responsabile;
+
+        return this.responsabile;
     }
 
     public void setResponsabile(String responsabile) {
+
         this.responsabile = responsabile;
     }
 

@@ -13,26 +13,32 @@ public class Postazione {
     }
 
     public Integer getCodPostazione() {
+
         return this.CodPostazione;
     }
 
     public void setCodPostazione(Integer codPostazione) {
+
         this.CodPostazione = codPostazione;
     }
 
     public Integer getNum_posti() {
+
         return this.num_posti;
     }
 
     public void setNum_posti(Integer num_posti) {
+
         this.num_posti = num_posti;
     }
 
     public Laboratorio getCodL_fk() {
+
         return this.CodL_fk;
     }
 
     public void setCodL_fk(Laboratorio codL_fk) {
+
         this.CodL_fk = codL_fk;
     }
 }

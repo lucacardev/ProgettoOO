@@ -8,7 +8,8 @@ public class Tecnico {
 	private String codfiscale;
 	private String telefono;
 	private Laboratorio codl_fk;
-	
+	private DTO.Laboratorio Laboratorio;
+
 	public Tecnico (String matricola,String nome,String cognome,String codfis,String tel,Laboratorio lab) {
 		this.matricola = matricola;
 		this.nome = nome;
@@ -19,23 +20,28 @@ public class Tecnico {
 	}
 
 	public String getMatricola() {
-		return matricola;
+
+		return this.matricola;
 	}
 
 	public void setMatricola(String matricola) {
+
 		this.matricola = matricola;
 	}
 
 	public String getNome() {
-		return nome;
+
+		return this.nome;
 	}
 
 	public void setNome(String nome) {
+
 		this.nome = nome;
 	}
 
 	public String getCognome() {
-		return cognome;
+
+		return this.cognome;
 	}
 
 	public void setCognome(String cognome) {
@@ -43,26 +49,32 @@ public class Tecnico {
 	}
 
 	public String getCodfiscale() {
-		return codfiscale;
+
+		return this.codfiscale;
 	}
 
 	public void setCodfiscale(String codfiscale) {
+
 		this.codfiscale = codfiscale;
 	}
 
 	public String getTelefono() {
-		return telefono;
+
+		return this.telefono;
 	}
 
 	public void setTelefono(String telefono) {
+
 		this.telefono = telefono;
 	}
 
 	public Laboratorio getLaboratorio() {
-		return laboratorio;
+
+		return this.Laboratorio;
 	}
 
 	public void setLaboratorio(Laboratorio laboratorio) {
+
 		this.codl_fk = laboratorio;
 	}
 	

@@ -12,26 +12,32 @@ public class Utente {
     }
 
     public String getUsername() {
+
         return this.Username;
     }
 
     public void setUsername(String username) {
+
         this.Username = username;
     }
 
     public String getEmail() {
+
         return this.email;
     }
 
     public void setEmail(String email) {
+
         this.email = email;
     }
 
     public String getPw() {
+
         return this.pw;
     }
 
     public void setPw(String pw) {
+
         this.pw = pw;
     }
 }
